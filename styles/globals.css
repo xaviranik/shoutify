@@ -7,3 +7,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Utilities */
+
+@layer components {
+  .nav-pill {
+    @apply hidden md:inline-flex mx-2 h-10 cursor-pointer text-gray-300 hover:text-slate-900 hover:scale-125 transition-all delay-100 ease-out;
+  }
+}

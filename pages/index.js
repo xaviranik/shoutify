@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-gray-100">
       <Head>
         <title>Shoutify</title>
         <link rel="icon" href="/favicon.ico" />
