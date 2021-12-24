@@ -13,10 +13,10 @@ import Avatar from "./Avatar";
 const Header = () => {
   return (
     <div className="bg-white shadow-sm border-b sticky top-0 z-50">
-      <div className="flex justify-between items-center max-w-6xl py-5 px-3 md:px-0 lg:mx-auto">
+      <div className="flex justify-between items-center max-w-6xl p-5 xl:px-0 lg:mx-auto">
         <Logo />
 
-        <div className="max-w-lg mx-6">
+        <div className="w-full md:max-w-md mx-6">
           <div className="relative rounded-md">
             <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
               <SearchIcon className="h-5 w-5 text-gray-400" />
