@@ -8,20 +8,21 @@ import {
   HeartIcon,
   ChevronDownIcon,
 } from "@heroicons/react/outline";
+import Avatar from "./Avatar";
 
 const Header = () => {
   return (
     <div className="bg-white shadow-sm border-b sticky top-0 z-50">
-      <div className="flex justify-between items-center max-w-6xl p-5 lg:mx-auto">
+      <div className="flex justify-between items-center max-w-6xl py-5 px-3 md:px-0 lg:mx-auto">
         <Logo />
 
-        <div className="max-w-xs mx-6">
+        <div className="max-w-lg mx-6">
           <div className="relative rounded-md">
             <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
               <SearchIcon className="h-5 w-5 text-gray-400" />
             </div>
             <input
-              className="bg-gray-50 block w-full pl-10 rounded-md border-gray-300 placeholder-gray-400 focus:ring-slate-900 focus:border-slate-900 xs:text-sm"
+              className="bg-gray-50 block w-full pl-10 rounded-md border-2 border-gray-300 placeholder-gray-400 focus:ring-slate-900 focus:border-slate-900 xs:text-sm"
               type="text"
               placeholder="Search..."
             />
@@ -40,12 +41,10 @@ const Header = () => {
           <MenuIcon className="nav-pill flex md:hidden cursor-pointer" />
 
           <span className="md:flex items-center hidden cursor-pointer">
-            <img
-              className="h-10 md:ml-10 rounded-full"
-              src="https://i.pravatar.cc/150?img=52"
-              alt="avatar"
+            <Avatar
+              src={"https://i.pravatar.cc/150?img=52"}
+              customClass={"md:ml-10"}
             />
-            <span className="text-gray-400 ml-3">Jon Snow</span>
             <ChevronDownIcon className="nav-pill text-gray-400 h-4" />
           </span>
         </div>
