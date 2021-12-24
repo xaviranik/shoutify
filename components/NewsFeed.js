@@ -1,9 +1,12 @@
-import Stories from "./Stories";
+import TrendingShouts from "./TrendingShouts";
 
 const NewsFeed = () => {
   return (
-    <main className="grid grid-cols-1 md:grid-cols-2 md:max-w-3xl xl:grid-cols-3">
-      <Stories />
+    <main className="grid grid-cols-1 md:grid-cols-3">
+      <div className="col-span-2">
+        <TrendingShouts />
+      </div>
+      <div className="col-span-1">{/* Sidebar layout */}</div>
     </main>
   );
 };
