@@ -1,4 +1,5 @@
 import TrendingShouts from "./TrendingShouts";
+import Sidebar from "./Sidebar";
 
 const NewsFeed = () => {
   return (
@@ -6,7 +7,9 @@ const NewsFeed = () => {
       <div className="col-span-2">
         <TrendingShouts />
       </div>
-      <div className="col-span-1">{/* Sidebar layout */}</div>
+      <div className="col-span-1">
+        <Sidebar />
+      </div>
     </main>
   );
 };

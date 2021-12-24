@@ -5,7 +5,7 @@ const TrendingShout = ({ profile }) => {
     <div className="flex items-end relative h-60 cursor-pointer">
       <img
         loading="lazy"
-        className="absolute top-0 object-cover w-full h-full rounded-lg transition-shadow ease-out"
+        className="absolute top-0 object-cover w-full h-full rounded-md transition-shadow ease-out"
         src="https://i.picsum.photos/id/770/300/300.jpg?hmac=pd_Pcdntixb5mGa9A0uYIC3FWO9qAWLz_Xb3tMvCATs"
         alt="moment"
       />
