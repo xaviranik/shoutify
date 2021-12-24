@@ -23,7 +23,7 @@ const Sidebar = () => {
 
             <div className="flex flex-col text-sm ml-4">
               <span className="text-slate-900 font-semibold cursor-pointer">
-                jonsnow
+                Jon Snow
               </span>
               <span className="text-slate-400 text-xs mt-1">
                 Active recently
@@ -45,7 +45,7 @@ const Sidebar = () => {
 
             <div className="flex flex-col text-sm ml-4">
               <span className="text-slate-900 font-semibold cursor-pointer">
-                cersie.lannister
+                Cersei Lannister
               </span>
               <span className="text-slate-400 text-xs mt-1">
                 Suggested for you
@@ -67,7 +67,7 @@ const Sidebar = () => {
 
             <div className="flex flex-col text-sm ml-4">
               <span className="text-slate-900 font-semibold cursor-pointer">
-                tyrion129
+                Tyrion Lannister
               </span>
               <span className="text-slate-400 text-xs mt-1">
                 Suggested for you
@@ -89,7 +89,7 @@ const Sidebar = () => {
 
             <div className="flex flex-col text-sm ml-4">
               <span className="text-slate-900 font-semibold cursor-pointer">
-                tonystark
+                Tony Stark
               </span>
               <span className="text-slate-400 text-xs mt-1">
                 Suggested for you
