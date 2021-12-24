@@ -19,10 +19,10 @@ const Header = () => {
         <div className="w-full md:max-w-md mx-6">
           <div className="relative rounded-md">
             <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
-              <SearchIcon className="h-5 w-5 text-gray-400" />
+              <SearchIcon className="h-5 w-5 text-slate-400" />
             </div>
             <input
-              className="bg-gray-50 block w-full pl-10 rounded-md border-2 border-gray-300 placeholder-gray-400 focus:ring-slate-900 focus:border-slate-900 xs:text-sm"
+              className="bg-slate-50 block w-full pl-10 rounded-md border-2 border-slate-300 placeholder-slate-400 focus:ring-slate-900 focus:border-slate-900 xs:text-sm"
               type="text"
               placeholder="Search..."
             />
@@ -34,7 +34,7 @@ const Header = () => {
           <UserIcon className="nav-pill" />
           <div className="relative nav-pill mx-0">
             <HeartIcon className="nav-pill" />
-            <span className="absolute top-1 right-2 text-sm bg-red-400 rounded-full w-3 h-3"></span>
+            <span className="absolute top-0 right-1 text-sm bg-red-400 rounded-full w-3 h-3"></span>
           </div>
           <PlusCircleIcon className="nav-pill" />
 
@@ -45,7 +45,7 @@ const Header = () => {
               src={"https://i.pravatar.cc/150?img=52"}
               customClass={"md:ml-10"}
             />
-            <ChevronDownIcon className="nav-pill text-gray-400 h-4" />
+            <ChevronDownIcon className="nav-pill text-slate-400 h-4" />
           </span>
         </div>
       </div>

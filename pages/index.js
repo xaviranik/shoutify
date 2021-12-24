@@ -4,7 +4,7 @@ import NewsFeed from "../components/NewsFeed";
 
 export default function Home() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-slate-50">
       <Head>
         <title>Shoutify</title>
         <link rel="icon" href="/favicon.ico" />
@@ -13,7 +13,7 @@ export default function Home() {
       {/* Header */}
       <Header />
 
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl m-5 mx-auto px-5 xl:px-0">
         {/* News feed */}
         <NewsFeed />
       </div>
