@@ -2,7 +2,7 @@ import Logo from "./Logo";
 import {
   SearchIcon,
   HomeIcon,
-  MenuIcon,
+  MenuAlt1Icon,
   UserIcon,
   PlusCircleIcon,
   HeartIcon,
@@ -38,7 +38,7 @@ const Header = () => {
           </div>
           <PlusCircleIcon className="nav-pill" />
 
-          <MenuIcon className="nav-pill flex md:hidden cursor-pointer" />
+          <MenuAlt1Icon className="nav-pill flex md:hidden cursor-pointer" />
 
           <span className="md:flex items-center hidden cursor-pointer">
             <Avatar

@@ -16,7 +16,7 @@ const Sidebar = () => {
       <div className="grid grid-rows-4 gap-4 mt-4 md:mt-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Avatar src="https://i.pravatar.cc/150?img=61" size={12} />
+            <Avatar src="https://i.pravatar.cc/150?img=61" />
 
             <div className="flex flex-col text-sm ml-4">
               <span className="text-slate-900 font-semibold cursor-pointer">
@@ -35,7 +35,7 @@ const Sidebar = () => {
 
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Avatar src="https://i.pravatar.cc/150?img=19" size={12} />
+            <Avatar src="https://i.pravatar.cc/150?img=19" />
 
             <div className="flex flex-col text-sm ml-4">
               <span className="text-slate-900 font-semibold cursor-pointer">
@@ -54,7 +54,7 @@ const Sidebar = () => {
 
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Avatar src="https://i.pravatar.cc/150?img=65" size={12} />
+            <Avatar src="https://i.pravatar.cc/150?img=65" />
 
             <div className="flex flex-col text-sm ml-4">
               <span className="text-slate-900 font-semibold cursor-pointer">
@@ -73,7 +73,7 @@ const Sidebar = () => {
 
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Avatar src="https://i.pravatar.cc/150?img=13" size={12} />
+            <Avatar src="https://i.pravatar.cc/150?img=13" />
 
             <div className="flex flex-col text-sm ml-4">
               <span className="text-slate-900 font-semibold cursor-pointer">

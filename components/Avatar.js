@@ -1,10 +1,8 @@
-const Avatar = ({ customClass, src, size, alt }) => {
-  let dimensions = size ? `w-${size} h-${size}` : "w-8 h-8";
-
+const Avatar = ({ customClass, src, alt }) => {
   return (
     <img
       loading="lazy"
-      className={`${dimensions} object-cover rounded-full cursor-pointer ${
+      className={`w-10 h-10 object-cover rounded-full cursor-pointer ${
         customClass ?? ""
       }`}
       src={src ?? `https://i.pravatar.cc/150?img=60`}
