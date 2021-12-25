@@ -32,7 +32,7 @@ const Sidebar = () => {
           </div>
 
           <div className="bg-slate-100 p-3 rounded-full cursor-pointer">
-            <UserIcon className="text-slate-300 h-6" />
+            <UserIcon className="text-slate-300 h-5" />
           </div>
         </div>
 
@@ -54,7 +54,7 @@ const Sidebar = () => {
           </div>
 
           <div className="bg-slate-900 p-3 rounded-full cursor-pointer">
-            <UserAddIcon className="text-white h-6" />
+            <UserAddIcon className="text-white h-5" />
           </div>
         </div>
 
@@ -76,7 +76,7 @@ const Sidebar = () => {
           </div>
 
           <div className="bg-slate-900 p-3 rounded-full cursor-pointer">
-            <UserAddIcon className="text-white h-6" />
+            <UserAddIcon className="text-white h-5" />
           </div>
         </div>
 
@@ -98,7 +98,7 @@ const Sidebar = () => {
           </div>
 
           <div className="bg-slate-900 p-3 rounded-full cursor-pointer">
-            <UserAddIcon className="text-white h-6" />
+            <UserAddIcon className="text-white h-5" />
           </div>
         </div>
       </div>
