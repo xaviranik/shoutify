@@ -6,7 +6,7 @@ const TrendingShout = ({ profile }) => {
       <img
         loading="lazy"
         className="absolute top-0 object-cover w-full h-full rounded-md transition-shadow ease-out"
-        src="https://i.picsum.photos/id/770/300/300.jpg?hmac=pd_Pcdntixb5mGa9A0uYIC3FWO9qAWLz_Xb3tMvCATs"
+        src={profile.cover}
         alt="moment"
       />
       <div className="absolute top-0 left-0 rounded-lg w-full h-full bg-black opacity-60 hover:shadow-lg hover:opacity-30 transition-all delay-75 ease-out"></div>

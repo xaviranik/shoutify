@@ -20,7 +20,11 @@ const TrendingShouts = () => {
         {profiles.map((profile) => (
           <TrendingShout
             key={profile.id}
-            profile={{ id: profile.id, username: profile.username }}
+            profile={{
+              id: profile.id,
+              username: faker.name.findName(),
+              cover: `https://picsum.photos/seed/${faker.datatype.number()}/200/300`,
+            }}
           />
         ))}
       </div>
