@@ -22,7 +22,7 @@ const Sidebar = () => {
               <span className="text-slate-900 font-semibold cursor-pointer">
                 Jon Snow
               </span>
-              <span className="text-slate-400 text-xs mt-1">
+              <span className="text-slate-400 text-xs mt-1 font-thin">
                 Active recently
               </span>
             </div>
@@ -41,7 +41,7 @@ const Sidebar = () => {
               <span className="text-slate-900 font-semibold cursor-pointer">
                 Cersei Lannister
               </span>
-              <span className="text-slate-400 text-xs mt-1">
+              <span className="text-slate-400 text-xs mt-1 font-thin">
                 Suggested for you
               </span>
             </div>
@@ -60,7 +60,7 @@ const Sidebar = () => {
               <span className="text-slate-900 font-semibold cursor-pointer">
                 Tyrion Lannister
               </span>
-              <span className="text-slate-400 text-xs mt-1">
+              <span className="text-slate-400 text-xs mt-1 font-thin">
                 Suggested for you
               </span>
             </div>
@@ -79,7 +79,7 @@ const Sidebar = () => {
               <span className="text-slate-900 font-semibold cursor-pointer">
                 Tony Stark
               </span>
-              <span className="text-slate-400 text-xs mt-1">
+              <span className="text-slate-400 text-xs mt-1 font-thin">
                 Suggested for you
               </span>
             </div>
