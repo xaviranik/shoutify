@@ -7,7 +7,7 @@ const TrendingShout = ({ profile }) => {
         loading="lazy"
         className="absolute top-0 object-cover w-full h-full rounded-md transition-shadow ease-out"
         src={profile.cover}
-        alt="moment"
+        alt="treding shout"
       />
       <div className="absolute top-0 left-0 rounded-lg w-full h-full bg-black opacity-60 hover:shadow-lg hover:opacity-30 transition-all delay-75 ease-out"></div>
       <div className="absolute top-6 left-4">
