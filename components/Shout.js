@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/outline";
 import Image from "next/image";
 import Link from "next/link";
-import { formatDateForHuman } from "../utils/utils";
+import { formatDateForHuman } from "../utils";
 
 const Shout = ({ shout }) => {
   console.log(shout);
