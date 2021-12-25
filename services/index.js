@@ -23,6 +23,7 @@ export const getShouts = async () => {
             }
             id
             createdAt
+            location
             slug
             title
             except
