@@ -1,7 +1,6 @@
 import Shout from "./Shout";
 
 const Shouts = ({ shouts }) => {
-  console.log(shouts);
   return (
     <div className="mt-4">
       {shouts.map((shout) => (

@@ -24,7 +24,7 @@ const Header = () => {
             <input
               className="bg-slate-50 block w-full pl-10 rounded-md border-2 border-slate-300 placeholder-slate-400 focus:ring-slate-900 focus:border-slate-900 xs:text-sm"
               type="text"
-              placeholder="Search..."
+              placeholder="Search"
             />
           </div>
         </div>

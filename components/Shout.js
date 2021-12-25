@@ -8,21 +8,23 @@ import {
 } from "@heroicons/react/outline";
 import Image from "next/image";
 import Link from "next/link";
+import { formatDateForHuman } from "../utils/utils";
 
 const Shout = ({ shout }) => {
+  console.log(shout);
   return (
     <div>
       <div className="bg-white shadow-sm rounded-md mt-6 p-5 md:p-7">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Avatar src={shout.author.photo.url} size={12} />
+            <Avatar src={shout.author.photo.url} customClass={"h-12 w-12"} />
 
             <div className="flex flex-col text-sm ml-4">
-              <span className="text-slate-900 font-semibold cursor-pointer">
+              <span className="text-slate-900 font-semibold text-base cursor-pointer">
                 {shout.author.name}
               </span>
-              <span className="text-slate-400 text-xs mt-1">
-                Dresden, Germany
+              <span className="text-slate-400 text-xs font-thin mt-2 truncate w-48 md:w-full">
+                {formatDateForHuman(shout.createdAt)} &#8226; {shout.location}
               </span>
             </div>
           </div>
@@ -30,15 +32,27 @@ const Shout = ({ shout }) => {
           <DotsHorizontalIcon className="text-slate-400 cursor-pointer h-6" />
         </div>
 
-        <div className="relative w-full h-96 mt-6">
-          <Image
-            src={shout.featuredImage.url}
-            alt="test"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-md"
-          />
+        <Link href={"/"}>
+          <h4 className="font-bold text-lg mt-8 cursor-pointer line-clamp-2">
+            {shout.title}
+          </h4>
+        </Link>
+
+        <div className="mt-4 text-slate-600 text-sm leading-loose font-thin line-clamp-2">
+          {shout.except}
         </div>
+
+        <Link href={"/"}>
+          <div className="relative w-full h-96 mt-6">
+            <Image
+              src={shout.featuredImage.url}
+              alt="test"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-md cursor-pointer"
+            />
+          </div>
+        </Link>
 
         <div className="mt-6">
           <div className="flex items-center justify-between">
