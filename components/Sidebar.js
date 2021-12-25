@@ -3,7 +3,7 @@ import { UserIcon, UserAddIcon } from "@heroicons/react/outline";
 
 const Sidebar = () => {
   return (
-    <div className="bg-white shadow-sm rounded-md mb-4 p-5 md:p-7 md:mt-0 md:mr-6">
+    <div className="bg-white shadow-sm rounded-md my-4 p-5 md:p-7 md:my-0 md:mr-6">
       <div className="flex items-center justify-between">
         <span className="text-slate-900 text-base md:text-lg font-semibold capitalize">
           Suggested For You
