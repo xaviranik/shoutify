@@ -11,7 +11,6 @@ import Link from "next/link";
 import { formatDateForHuman } from "../utils";
 
 const Shout = ({ shout }) => {
-  console.log(shout);
   return (
     <div>
       <div className="bg-white shadow-sm rounded-md mt-6 p-5 md:p-7">
@@ -32,17 +31,17 @@ const Shout = ({ shout }) => {
           <DotsHorizontalIcon className="text-slate-400 cursor-pointer h-6" />
         </div>
 
-        <Link href={"/"}>
+        <Link href={`/shout/${shout.slug}`}>
           <h4 className="font-bold text-lg mt-8 cursor-pointer line-clamp-2">
             {shout.title}
           </h4>
         </Link>
 
-        <div className="mt-4 text-slate-600 text-sm leading-loose font-thin line-clamp-2">
+        <div className="mt-4 text-slate-600 text-sm leading-relaxed font-thin line-clamp-2">
           {shout.except}
         </div>
 
-        <Link href={"/"}>
+        <Link href={`/shout/${shout.slug}`}>
           <div className="relative w-full h-96 mt-6">
             <Image
               src={shout.featuredImage.url}
