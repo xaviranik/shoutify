@@ -14,4 +14,8 @@
   .nav-pill {
     @apply hidden md:inline-flex mx-2 h-8 cursor-pointer text-slate-300 hover:text-slate-900 hover:scale-110 transition-all delay-75 ease-out;
   }
+
+  .trend-pill {
+    @apply text-sm mr-3 mb-3 bg-slate-100 text-slate-400 font-thin px-3 py-1 rounded-md hover:bg-slate-200 hover:text-slate-500 cursor-pointer transition-colors delay-75 ease-out;
+  }
 }
