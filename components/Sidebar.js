@@ -94,10 +94,21 @@ const Sidebar = () => {
       </div>
 
       <div className="p-5 bg-white shadow-sm mt-4 rounded-md md:mr-6">
-        <div>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
-          debitis ea omnis consequatur asperiores quasi qui at laudantium hic
-          tenetur?
+        <div className="flex items-center justify-between">
+          <span className="text-slate-900 text-base md:text-md font-thin capitalize">
+            Explore Shouts
+          </span>
+          <span className="text-slate-300 text-sm md:text-md cursor-pointer hover:underline">
+            See all
+          </span>
+        </div>
+
+        <div className="flex flex-wrap items-center mt-4">
+          <span className="trend-pill">#help</span>
+          <span className="trend-pill">#css</span>
+          <span className="trend-pill">#javascript</span>
+          <span className="trend-pill">#algorithm</span>
+          <span className="trend-pill">#reactjs</span>
         </div>
       </div>
     </div>

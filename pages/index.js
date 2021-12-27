@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Header from "../components/Header";
 import NewsFeed from "../components/NewsFeed";
 import { getShouts } from "../services";
 
