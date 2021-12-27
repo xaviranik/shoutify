@@ -1,8 +1,41 @@
+import Avatar from "../../components/Avatar";
+
 const ShoutDetails = () => {
   return (
-    <div>
-      <h1>This is the details</h1>
-    </div>
+    <section className="flex flex-col scroll-smooth min-h-screen">
+      <div className="max-w-6xl w-full mx-auto mt-5 px-5 xl:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-3 h-full">
+          <div className="col-span-1 order-last md:order-first relative">
+            <div className="bg-white shadow-sm rounded-md my-4 p-5 md:p-7 md:my-0 md:mr-6">
+              <div className="flex items-center justify-between">
+                <span className="text-slate-900 text-base md:text-md font-thin capitalize">
+                  Current Trends
+                </span>
+                <span className="text-slate-300 text-sm md:text-md cursor-pointer hover:underline">
+                  See all
+                </span>
+              </div>
+
+              <div className="flex flex-wrap items-center mt-4">
+                <span className="trend-pill">#tech</span>
+                <span className="trend-pill">#lifehacks</span>
+                <span className="trend-pill">#stock</span>
+                <span className="trend-pill">#productivity</span>
+                <span className="trend-pill">#quantum_mechanics</span>
+              </div>
+            </div>
+            <div className="sticky top-28 mt-5">
+              {/* Sticky sidebar goes here! */}
+            </div>
+          </div>
+          <div className="col-span-2 scrollbar-hide">
+            <div className="bg-white shadow-sm rounded-md p-5 md:p-7">
+              Post content goes here!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 

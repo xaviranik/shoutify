@@ -24,7 +24,7 @@ const NewsFeed = ({ shouts }) => {
             <span className="trend-pill">#quantum_mechanics</span>
           </div>
         </div>
-        <div className="sticky top-28 mt-4">
+        <div className="sticky top-28 mt-5">
           <Sidebar />
         </div>
       </div>

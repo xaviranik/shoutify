@@ -4,7 +4,7 @@ import { UserIcon, UserAddIcon } from "@heroicons/react/outline";
 const Sidebar = () => {
   return (
     <div>
-      <div className="bg-white shadow-sm rounded-md my-4 p-5 md:p-7 md:my-0 md:mr-6">
+      <div className="bg-white shadow-sm rounded-md my-5 p-5 md:p-7 md:my-0 md:mr-6">
         <div className="flex items-center justify-between">
           <span className="text-slate-900 text-md md:text-md capitalize font-thin">
             Suggested For You
@@ -93,7 +93,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <div className="p-5 bg-white shadow-sm mt-4 rounded-md md:mr-6">
+      <div className="bg-white shadow-sm rounded-md my-5 p-5 md:p-7 md:mr-6">
         <div className="flex items-center justify-between">
           <span className="text-slate-900 text-base md:text-md font-thin capitalize">
             Explore Shouts
