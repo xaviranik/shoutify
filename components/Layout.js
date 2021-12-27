@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
 
       <Header />
 
-      <main>{children}</main>
+      <main className="bg-slate-50">{children}</main>
     </>
   );
 };
