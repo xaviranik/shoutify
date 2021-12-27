@@ -45,3 +45,39 @@ export const getShouts = async () => {
 
   return response.shoutsConnection.edges;
 };
+
+export const getShoutDetails = async (slug) => {
+  const query = gql`
+    query GetShoutDetails($slug: String!) {
+      shout(where: { slug: $slug }) {
+        id
+        location
+        title
+        excerpt
+        featuredImage {
+          url
+        }
+        author {
+          name
+          bio
+          photo {
+            url
+          }
+        }
+        createdAt
+        slug
+        content {
+          raw
+        }
+        categories {
+          name
+          slug
+        }
+      }
+    }
+  `;
+
+  const response = await request(graphqlEndpoint, query, { slug });
+
+  return response.shout;
+};

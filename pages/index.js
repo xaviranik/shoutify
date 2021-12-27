@@ -4,7 +4,7 @@ import { getShouts } from "../services";
 export default function Home({ shouts }) {
   return (
     <div className="flex flex-col scroll-smooth">
-      <div className="max-w-6xl w-full mx-auto mt-5 px-5 xl:px-0">
+      <div className="max-w-6xl w-full mx-auto mt-5 px-5 mb-8 xl:px-0">
         <NewsFeed shouts={shouts} />
       </div>
     </div>
