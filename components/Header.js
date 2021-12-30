@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+import Link from "next/link";
 import {
   SearchIcon,
   HomeIcon,
@@ -14,15 +15,19 @@ const Header = () => {
   return (
     <div className="bg-white shadow-sm border-b sticky top-0 z-50">
       <div className="max-w-6xl flex justify-between items-center p-5 xl:px-0 lg:mx-auto">
-        <Logo />
+        <Link href="/">
+          <div className="cursor-pointer">
+            <Logo />
+          </div>
+        </Link>
 
         <div className="w-full md:max-w-md mx-6">
           <div className="relative rounded-md">
             <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
-              <SearchIcon className="h-5 w-5 text-slate-400" />
+              <SearchIcon className="h-5 w-5 text-slate-400 stroke-w-1" />
             </div>
             <input
-              className="bg-slate-50 block w-full pl-10 rounded-md border-2 border-slate-300 placeholder-slate-400 focus:ring-slate-900 focus:border-slate-900 xs:text-sm"
+              className="bg-slate-50 block w-full pl-10 rounded-md border-1 border-slate-300 placeholder-slate-400 placeholder:font-thin focus:ring-slate-900 focus:border-slate-900 xs:text-sm"
               type="text"
               placeholder="Search"
             />

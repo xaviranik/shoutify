@@ -11,8 +11,12 @@
 /* Custom Utilities */
 
 @layer components {
+  .stroke-w-1 > path {
+    stroke-width: 1;
+  }
+
   .nav-pill {
-    @apply hidden md:inline-flex mx-2 h-8 cursor-pointer text-slate-300 hover:text-slate-900 hover:scale-110 transition-all delay-75 ease-out;
+    @apply hidden md:inline-flex mx-2 h-8 cursor-pointer stroke-w-1 text-slate-400 hover:text-slate-900 hover:scale-110 transition-all delay-75 ease-out;
   }
 
   .trend-pill {

@@ -32,7 +32,7 @@ const Shout = ({ shout }) => {
         </div>
 
         <Link href={`/shout/${shout.slug}`}>
-          <h4 className="font-bold text-lg mt-8 cursor-pointer line-clamp-2">
+          <h4 className="font-bold text-lg mt-6 cursor-pointer line-clamp-2">
             {shout.title}
           </h4>
         </Link>
