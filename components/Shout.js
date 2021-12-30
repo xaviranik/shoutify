@@ -57,23 +57,23 @@ const Shout = ({ shout }) => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <HeartIcon
-                className="h-6 md:h-7 mr-3 cursor-pointer
+                className="h-6 md:h-6 mr-3 cursor-pointer
              text-slate-300 transition duration-75 ease-out hover:text-red-500"
               />
 
               <ChatIcon
-                className="h-6 md:h-7 mr-3 cursor-pointer
+                className="h-6 md:h-6 mr-3 cursor-pointer
              text-slate-300 transition duration-75 ease-out hover:text-slate-900"
               />
 
               <ShareIcon
-                className="h-6 md:h-7 mr-3 cursor-pointer
+                className="h-6 md:h-6 mr-3 cursor-pointer
              text-slate-300 transition duration-75 ease-out hover:text-slate-900"
               />
             </div>
 
             <BookmarkIcon
-              className="h-6 md:h-7 cursor-pointer
+              className="h-6 md:h-6 cursor-pointer
              text-slate-300 transition duration-75 ease-out hover:text-slate-900"
             />
           </div>
