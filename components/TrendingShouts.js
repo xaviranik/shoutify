@@ -16,7 +16,15 @@ const TrendingShouts = () => {
 
   return (
     <section>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="flex items-center justify-between">
+        <span className="text-slate-900 text-base md:text-md font-thin capitalize">
+          Trending Shouts
+        </span>
+        <span className="text-slate-300 text-sm md:text-md cursor-pointer hover:underline">
+          See all
+        </span>
+      </div>
+      <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-4">
         {profiles.map((profile) => (
           <TrendingShout
             key={profile.id}

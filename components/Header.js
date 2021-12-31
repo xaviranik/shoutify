@@ -39,7 +39,7 @@ const Header = () => {
           <UserIcon className="nav-pill" />
           <div className="relative nav-pill mx-0">
             <HeartIcon className="nav-pill" />
-            <span className="absolute top-0 right-1 text-sm bg-red-400 rounded-full w-3 h-3"></span>
+            <span className="absolute top-1 right-2 text-sm bg-red-400 rounded-full w-2 h-2"></span>
           </div>
           <PlusCircleIcon className="nav-pill" />
 
@@ -50,7 +50,7 @@ const Header = () => {
               src={"https://i.pravatar.cc/150?img=52"}
               customClass={"md:ml-10"}
             />
-            <ChevronDownIcon className="nav-pill text-slate-400 h-4" />
+            <ChevronDownIcon className="nav-pill text-slate-500 h-4" />
           </span>
         </div>
       </div>
