@@ -45,7 +45,7 @@ const Shout = ({ shout }) => {
           <div className="relative w-full h-96 mt-6">
             <Image
               src={shout.featuredImage.url}
-              alt="test"
+              alt={shout.title}
               layout="fill"
               objectFit="cover"
               className="rounded-md cursor-pointer"

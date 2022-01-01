@@ -53,7 +53,6 @@ export const getShoutDetails = async (slug) => {
         id
         location
         title
-        excerpt
         featuredImage {
           url
         }
